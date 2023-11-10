@@ -8,7 +8,7 @@ public class AppController {
 
     @GetMapping("/index")
     public String index() {
-        int val = 100 / 0;
+        int val = Integer.parseInt("asdf");
         return "index";
     }
 
